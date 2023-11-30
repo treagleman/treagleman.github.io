@@ -8,3 +8,51 @@
     display: block;
     clear:both;
 }
+
+body {
+    position: relative;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+.gsap-page-container {
+    display: grid;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: brown;
+    grid-template-rows: auto 1fr 150px;
+    grid-template-areas: 
+        'header'
+        'content'
+        'footer';
+}
+
+.header-container {
+    display: flex;
+    width: 100%;
+    background-color: aliceblue;
+    grid-area: header;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.content-container {
+    display: grid;
+    grid-area: content;
+    grid-template-columns: 1fr auto;
+    grid-template-areas: '. aside' ;
+}
+
+.sidebar {
+    height: 100%;
+    background-color: aqua;
+    grid-area: aside;
+}
+
+footer {
+    grid-area: footer;
+    background-color: bisque;
+}
