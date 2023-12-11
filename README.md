@@ -106,3 +106,6 @@ push to git:
         <footer>Footer</footer>
     </body>
     </html>
+
+
+[JSDocumentation Standards](https://developer.wordpress.org/coding-standards/inline-documentation-standards/javascript/)
