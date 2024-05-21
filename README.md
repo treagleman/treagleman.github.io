@@ -16,6 +16,16 @@ push to git:
 
 ## Notes
 
+### Breakpoints
+
+	{
+		xs: 320px,
+		sm: 480px,
+		md: 768px, 
+		lg: 1024px,
+		xl: 1200px
+	}
+
 ### Class Naming Conventions
 
 - Block/Element/Modifier (BEM) notation
